@@ -38,7 +38,7 @@ public class DataPicker {
 
 			nextButton.click();
 
-			// Try to find the 22nd in the current month
+			// Try to find the 22nd in the month
 			try {
 				day22 = driver.findElement(By.xpath("//a[text()='22']"));
 			} catch (Exception e) {
